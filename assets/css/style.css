@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #d63384;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d63384;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a61e65;
+}
+
+.resumen {
+    margin-bottom: 20px;
+    color: #5e2750;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f5c2d7;
+}
+
+th {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe4ec;
+}
+
+.realizada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button.delete {
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #c92a2a;
+}
